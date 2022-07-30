@@ -1,0 +1,109 @@
+.dparent{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    
+}
+
+.logo{
+    position: absolute;
+width: 150px;
+height: 180px;
+/* left: 38px; */
+top: -35px;
+right: 1370px;
+
+
+}
+
+
+.sidebar{
+    /* position: absolute; */
+    left:-3px;
+    top:0px;
+    /* width:291px; */
+    width: 22%;
+    background: linear-gradient(180deg, #3E3CBD 0%, rgba(159, 29, 180, 0.59375) 36.46%, rgba(135, 42, 192, 0.508929) 73.44%, rgba(45, 42, 190, 0.82) 100%, rgba(45, 42, 190, 0.82) 100%);
+    height:100vh;
+    opacity: 0.8;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.banner{
+    
+    height:75px;
+    width: 100%;
+    background: #E1E5E8;
+    border-radius: 10px;
+    
+    font-size: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+
+
+.right_panel{
+    width: 88%;
+}
+
+.event_panel{
+    
+    position: relative;
+    /* top: 165px; */
+    top:25%;
+    left: 2%;
+    font-family: 'Inter';
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;   
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.event_panel li{
+    padding-top: 5px;
+
+}
+
+.evnt{
+    background: linear-gradient(180deg, #3E3CBD 0%, rgba(159, 29, 180, 0.59375) 36.46%, rgba(135, 42, 192, 0.508929) 73.44%, rgba(45, 42, 190, 0.82) 100%, rgba(45, 42, 190, 0.82) 100%);
+    padding: 10px;
+    margin: 1px 0px;
+    margin-left: 10px;
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 8px;
+    
+}
+
+.evnt li{
+    padding: 4px;
+    list-style: none;
+}
+
+
+.lnk{
+    text-decoration:none;
+    color:white;
+}
+
+.lable{
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+
+left: 363px;
+top: 350px;
+
+
+
+}
